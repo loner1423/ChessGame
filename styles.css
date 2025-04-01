@@ -5,7 +5,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: #2b2b2b;
+  background-color: #8b8686;
   font-family: Arial, sans-serif;
 }
 
@@ -17,14 +17,14 @@ body {
 
 #chess-board {
   display: grid;
-  grid-template-columns: repeat(8, 80px);
-  grid-template-rows: repeat(8, 80px);
-  border: 5px solid #333;
+  grid-template-columns: repeat(8, 70px);
+  grid-template-rows: repeat(8, 70px);
+  border: 3px solid #333;
 }
 
 .square {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +32,7 @@ body {
 
 /* Highlight selected square */
 .selected {
-  outline: 3px solid yellow;
+  outline: 3px solid green;
 }
 /* Highlight capture options */
 .square .piece:hover {
